@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery with Descriptions</title>
+    <style>
+        /* General Styling */
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            color: #fff;
+            background: url('d:\PicsArt\pokhara.jpg') no-repeat center center fixed;
+            background-size: cover;
+        }
+
+        header {
+            background-color: rgba(0, 0, 0, 0.7);
+            padding: 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+            color: #FFD700;
+        }
+
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            padding: 20px;
+            margin: 20px;
+            background-color: rgba(0, 0, 0, 0.7);
+            border-radius: 10px;
+        }
+
+        .gallery-item {
+            text-align: center;
+            background-color: rgba(255, 255, 255, 0.1);
+            padding: 10px;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+        }
+
+        .gallery-item img {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .gallery-item img:hover {
+            transform: scale(1.05);
+            box-shadow: 0 8px 12px rgba(0, 0, 0, 0.5);
+        }
+
+        .gallery-item p {
+            margin: 10px 0 0;
+            font-size: 1rem;
+            color: #ddd;
+        }
+
+        footer {
+            background-color: rgba(0, 0, 0, 0.9);
+            padding: 10px;
+            text-align: center;
+            color: #ccc;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Football Gallery</h1>
+    </header>
+
+    <div class="gallery">
+        <div class="gallery-item">
+            <img src="d:\Twitter\20221114_000903.jpg" alt="Garnacho">
+            <p>Alejandro Garnacho celebrates alongside Bruno Fernandes.</p>
+        </div>
+        <div class="gallery-item">
+            <img src="d:\Twitter\20221206_233053.jpg" alt="Morocco">
+            <p>Morocco players after knocking Portugal out of World Cup!</p>
+        </div>
+        <div class="gallery-item">
+            <img src="d:\Twitter\20221219_004828.jpg" alt="Martinez">
+            <p> Lisandro Martinez lifts World Cup. His Manchester counterpart Julian Alvarez is seen clapping for him.</p>
+        </div>
+        <div class="gallery-item">
+            <img src="d:\Twitter\20221210_033102.jpg" alt="Messi">
+            <p>Argentina players carry Messi after their remarkable victory of World Cup 2022.</p>
+        </div>
+        <div class="gallery-item">
+            <img src="d:\Twitter\20230114_194925.jpg" alt="Celebrate">
+            <p>Marcus Rashfod scores in Manchester Derby to secure victory for Manchester United</p>
+        </div>
+        <div class="gallery-item">
+            <img src="d:\Twitter\20221218_210902.jpg" alt="Messi World Cup">
+            <p>Lionel Messi celebrates triumph by kissing the FIFA World Cup 2022 trophy. .</p>
+        </div>
+        <div class="gallery-item">
+            <img src="d:\Twitter\20230612_061147.jpg" alt="Treble">
+            <p>Sir Alex Ferguson proudly poses with the three iconic trophies representing Manchester United's historic treble-winning season in 1999</p>
+        </div>
+        <div class="gallery-item">
+            <img src="d:\Twitter\20230227_002723.jpg" alt="EFL Cup">
+            <p>Eric Ten Hag lifts Cup after Manchester United beat Newcastle in EFL Cup-2023.</p>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Our Gallery. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
