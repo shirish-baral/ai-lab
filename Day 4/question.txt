@@ -1,0 +1,6 @@
+Route Finder Using Bi-Directional BFS/DFS Objective: Use Bi-directional BFS/DFS to solve a navigation problem. Problem Statement: Represent a city map as a graph where intersections are nodes and roads are edges. Find the shortest path between two locations.
+
+Tasks: Implement Bi-directional BFS to minimize the number of nodes explored.
+
+Compare the performance of Bi-directional BFS with standard BFS and DFS.
+Visualize the search process (e.g., using a library like networkx in Python).
