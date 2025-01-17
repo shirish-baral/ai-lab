@@ -1,0 +1,7 @@
+Assignment 4: Uniform Cost Search for Optimal Path
+
+Objective: Implement Uniform Cost Search for a weighted graph.
+
+Problem Statement: Given a weighted graph (e.g., a transportation network with travel costs), find the minimum-cost path between two nodes.
+
+Tasks: Represent the graph as an adjacency list. Implement Uniform Cost Search to find the optimal path. Compare it with BFS for unweighted graphs.
